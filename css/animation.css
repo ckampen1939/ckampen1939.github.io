@@ -1,0 +1,384 @@
+.btn {
+  text-decoration: none;
+  display: inline-block;
+  height: 35px;
+  width: 75px;
+  line-height: 35px;
+  text-align: center;
+  position: relative;
+  -webkit-transition: all .3s ease-out;
+  -o-transition: all .3s ease-out;
+  transition: all .3s ease-out;
+}
+
+.front {
+  padding: 0 10px;
+  visibility: hidden;
+}
+
+.flip-front,
+.flip-back {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    -webkit-transform-style: flat;
+    transform-style: flat;
+    -webkit-transition: -webkit-transform .3s ease-out;
+    -o-transition: -o-transform .3s ease-out;
+    transition: transform .3s ease-out;
+}
+
+.flip-front {
+    color: #313131;
+    background-color: transparent;
+    -webkit-transform: rotateX(0deg) translateZ(25px);
+    -ms-transform: rotateX(0deg) translateZ(25px);
+    -o-transform: rotateX(0deg) translateZ(25px);
+    transform: rotateX(0deg) translateZ(25px);
+}
+
+.flip-back {
+  color: #fff;
+  background-color: #313131;
+  border: 2px solid #313131;
+  -webkit-transform: rotateX(90deg) translateZ(25px);
+  -ms-transform: rotateX(90deg) translateZ(25px);
+  -o-transform: rotateX(90deg) translateZ(25px);
+  transform: rotateX(90deg) translateZ(25px);
+}
+
+.btn:hover .flip-front {
+    -webkit-transform: rotateX(-90deg) translateZ(25px);
+    -ms-transform: rotateX(-90deg) translateZ(25px);
+    -o-transform: rotateX(-90deg) translateZ(25px);
+    transform: rotateX(-90deg) translateZ(25px);
+}
+
+.btn:hover .flip-back {
+    -webkit-transform: rotateX(0deg) translateZ(25px);
+    -ms-transform: rotateX(0deg) translateZ(25px);
+    -o-transform: rotateX(0deg) translateZ(25px);
+    transform: rotateX(0deg) translateZ(25px);
+}
+
+.toggle {
+  top: 0 !important;
+  transition: .4s;
+}
+
+.toggleHidden {
+  top: -30px !important;
+  transition: .4s;
+}
+
+.invisible {
+  visibility: hidden;
+  transition: .25s;
+  opacity: 0;
+}
+
+.slideRight {
+  position: absolute;
+  transition: .25s;
+  right: 0;
+}
+
+.visible {
+  visibility: visible;
+  transition: .25s;
+  opacity: 100;
+}
+
+.mask {
+  animation: dash 1s linear alternate;
+  fill: none;
+}
+
+.slide {
+  left: 10px !important;
+  transition: .5s;
+}
+
+.search {
+  left: 15px !important;
+  transition: .5s;
+}
+
+.responseInvert {
+  background: -webkit-linear-gradient(45deg, #405de6, #5851db, #833ab4, #c13584, #e1306c, #fd1d1d);
+  background: linear-gradient(45deg, #405de6, #5851db, #833ab4, #c13584, #e1306c, #fd1d1d);
+  height: 4px;
+  width: 0;
+}
+
+.feedInvert {
+  background: -webkit-linear-gradient(45deg, #405de6, #5851db, #833ab4, #c13584, #e1306c, #fd1d1d);
+  background: linear-gradient(45deg, #405de6, #5851db, #833ab4, #c13584, #e1306c, #fd1d1d);
+  -webkit-mask-image: radial-gradient(transparent 0 28px, #000 28.5px);
+  mask-image: radial-gradient(transparent 0 28px, #000 28.5px);
+  border-radius: 36px;
+  position: relative;
+  height: 56px;
+  width: 56px;
+  z-index: 6;
+
+}
+
+.selectInvert {
+  background: -webkit-linear-gradient(45deg, #405de6, #5851db, #833ab4, #c13584, #e1306c, #fd1d1d);
+  background: linear-gradient(45deg, #405de6, #5851db, #833ab4, #c13584, #e1306c, #fd1d1d);
+  -webkit-mask-image: radial-gradient(transparent 0 20px, #000 20.5px);
+  mask-image: radial-gradient(transparent 0 20px, #000 20.5px);
+  border-radius: 36px;
+  position: absolute;
+  height: 42px;
+  width: 42px;
+}
+
+.suggestInvert {
+  background: -webkit-linear-gradient(45deg, #405de6, #5851db, #833ab4, #c13584, #e1306c, #fd1d1d);
+  background: linear-gradient(45deg, #405de6, #5851db, #833ab4, #c13584, #e1306c, #fd1d1d);
+  -webkit-mask-image: radial-gradient(transparent 0 12px, #000 12.5px);
+  mask-image: radial-gradient(transparent 0 12px, #000 12.5px);
+  border-radius: 13px;
+  position: relative;
+}
+
+.responseOpposite {
+  background: -webkit-linear-gradient(to left, #ef4063, #e557c6);
+  background: linear-gradient(to left, #ef4063, #e557c6);
+  height: 4px;
+  width: 0;
+}
+
+.feedOpposite {
+  background: -webkit-linear-gradient(to right, #ef4063, #e557c6);
+  background: linear-gradient(to right, #ef4063, #e557c6);
+  -webkit-mask-image: radial-gradient(transparent 0 28px, #000 28.5px);
+  mask-image: radial-gradient(transparent 0 28px, #000 28.5px);
+  border-radius: 36px;
+  position: relative;
+  height: 56px;
+  width: 56px;
+  z-index: 6;
+}
+
+.selectOpposite {
+  background: -webkit-linear-gradient(to left, #ef4063, #e557c6);
+  background: linear-gradient(to left, #ef4063, #e557c6);
+  -webkit-mask-image: radial-gradient(transparent 0 20px, #000 20.5px);
+  mask-image: radial-gradient(transparent 0 20px, #000 20.5px);
+  border-radius: 36px;
+  position: absolute;
+  height: 42px;
+  width: 42px;
+}
+
+.suggestOpposite {
+  background: -webkit-linear-gradient(to left, #ef4063, #e557c6);
+  background: linear-gradient(to left, #ef4063, #e557c6);
+  -webkit-mask-image: radial-gradient(transparent 0 12px, #000 12.5px);
+  mask-image: radial-gradient(transparent 0 12px, #000 12.5px);
+  border-radius: 13px;
+  position: relative;
+}
+
+.response {
+  -webkit-transition: all .25s ease-in-out;
+  -webkit-transition-delay: 0s;
+  -moz-transition: all .25s ease-in-out;
+  -moz-transition-delay: 0s;
+}
+
+.progress {
+  background: -webkit-linear-gradient(left, rgba(255, 255, 255, .3) 30%, rgba(255, 255, 255, .6) 80%, rgba(255, 255, 255, .3) 100%) repeat;
+  background: -moz-linear-gradient(left, rgba(255, 255, 255, .3) 30%, rgba(255, 255, 255, .6) 80%, rgba(255, 255, 255, .3) 100%) repeat;
+  -webkit-animation: percent 6s linear infinite;
+  -moz-animation: percent 6s linear infinite;
+  -webkit-background-size: 50% 100%;
+  -moz-background-size: 50% 100%;
+  position: relative;
+  height: 100%;
+  width: 100%;
+}
+
+.overlay {
+  background: linear-gradient(120deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, .2) 45%, rgba(255, 255, 255, 1) 50%, rgba(255, 255, 255, .2) 55%, rgba(255, 255, 255, 0) 100%);
+  -webkit-animation: gloss 6s linear .5;
+  -moz-animation: gloss 6s linear .5;
+  background-size: 100% 1700%;
+  position: relative;
+  width: 100%;
+}
+
+@-webkit-keyframes percent {
+  0% {
+    background-position: left bottom;
+  }
+
+  100% {
+    background-position: right bottom;
+  }
+}
+
+@-webkit-keyframes gloss {
+  0% {
+    background-position: 90% 100%
+  }
+
+  50% {
+    background-position: 0% 10%
+  }
+
+  100% {
+    background-position: 90% 100%
+  }
+}
+
+@keyframes dash {
+  0% {
+    stroke-dasharray: 1;
+  }
+
+  100% {
+    stroke-dasharray: 4;
+  }
+}
+
+@keyframes stroke {
+  100% {
+    stroke-dashoffset: 0;
+  }
+}
+
+@keyframes scale {
+  0%, 100% {
+    transform: none;
+  }
+
+  50% {
+    transform: scale3d(1.1, 1.1, 1);
+  }
+}
+
+@keyframes fill {
+  100% {
+    box-shadow: inset 0px 0px 0px 30px #7ac142;
+  }
+}
+
+@keyframes move {
+  0% {left: 0%;}
+  100% {left:100%;}
+}
+
+html body #wrapper #container #main #dots .fill {
+  width: 4px;
+  height: 4px;
+  position: absolute;
+  border-radius: 50%;
+}
+
+html body #wrapper #container #main #dots .fill {
+  animation: move 3s infinite cubic-bezier(.25,.85,.85,.1);
+}
+html body #wrapper #container #main #dots .fill:nth-of-type(2) {
+  animation: move 3s 150ms infinite cubic-bezier(.25,.85,.85,.1);
+}
+html body #wrapper #container #main #dots .fill:nth-of-type(3) {
+  animation: move 3s 300ms infinite cubic-bezier(.25,.85,.85,.1);
+}
+html body #wrapper #container #main #dots .fill:nth-of-type(4) {
+  animation: move 3s 450ms infinite cubic-bezier(.25,.85,.85,.1);
+}
+html body #wrapper #container #main #dots .fill:nth-of-type(5) {
+  animation: move 3s 600ms infinite cubic-bezier(.25,.85,.85,.1);
+}
+
+/*
+The loaders use CSS custom properties (variables) to control the attributes of the loaders
+*/
+
+:root{
+	--loader-width: 30px;
+	--loader-height: 30px;
+	--line-width: 2px;
+	--animation-duration: 7s;
+	--loader-initial-scale: 0.1;
+}
+
+html body #wrapper #container #main .center .channel .item .classic .fill .loader,
+html body #wrapper #container #main .center .channel .item .classic .fill .loader:after,
+html body #wrapper #container #main .center .channel .item .classic .fill .loader:before {
+  margin: 0 auto;
+	box-sizing: border-box;
+	flex-grow: 0;
+	flex-shrink: 0;
+}
+/*
+In order to get optimal results, please only change the
+variables above and don't change anything in the actual loader code
+*/
+
+@keyframes circle-inner {
+  0% {
+    transform: rotate(0);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes circle-outer {
+  0% {
+    transform: rotate(0);
+  }
+  50% {
+    transform: rotate(360deg);
+  }
+  100% {
+    transform: rotate(720deg);
+  }
+}
+
+.loader.double-circle {
+    position: relative;
+    width: var(--loader-width, 100px);
+    height: var(--loader-height, 100px);
+}
+
+.double-circle::before {
+  content: '';
+  display: block;
+  position: absolute;
+  border-radius: 50%;
+  border: var(--line-width, 4px) solid transparent;
+  border-bottom-color: var(--loader-color-primary);
+  animation: circle-inner var(--animation-duration, 4s) infinite linear ;
+}
+.double-circle::after{
+    content: '';
+    display: block;
+    position: absolute;
+    border-radius: 50%;
+    border: var(--line-width, 4px) solid transparent;
+    border-bottom-color: var(--loader-color-secondary);
+    animation: circle-outer var(--animation-duration, 8s) infinite linear ;
+}
+
+.double-circle::before{
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+
+.double-circle::after{
+    width: calc(100% - 4px);
+    height: calc(100% - 4px);
+    top: 2px;
+    left: 2px;
+    animation-direction: circle-outer;
+}

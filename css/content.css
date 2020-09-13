@@ -1,0 +1,1450 @@
+@font-face {
+  src: url(../fonts/ProximaNova-Regular.woff);
+  font-family: Proxima Nova;
+  font-display: block;
+}
+
+@font-face {
+  src: url(../fonts/fontawesome.woff2);
+  font-family: FontAwesome;
+  font-display: block;
+}
+
+@font-face {
+  src: url(../fonts/Billabong.ttf);
+  font-family: Billabong;
+  font-display: block;
+}
+
+.fa,
+.far,
+.images {
+  display: inline-block;
+  cursor: pointer;
+}
+
+html body #wrapper #container #main .center .channel .item .classic .fill .loader,
+html body #wrapper #container #main .center .channel .item .classic .fill .loader:after,
+html body #wrapper #container #main .center .channel .item .classic .fill .loader:before {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+html body #wrapper #container #main #top #arm #option .fa-map,
+html body #wrapper #container #main #top #arm #option .fa-heart,
+html body #wrapper #container #main #top #arm #option .fa-heart-o,
+html body #wrapper #container #main #top #arm #option .fa-sun {
+  font-size: 17px;
+  padding: 17px;
+}
+
+html body #wrapper #container #main #top #arm #option .fa-home,
+html body #wrapper #container #main #top #arm #option .fa-code,
+html body #wrapper #container #main #top #arm #option .fa-terminal {
+  font-size: 20px;
+  padding: 15px;
+}
+
+html body #wrapper #container #guide .sticky .tag .fa-heart,
+html body #wrapper #container #main .center .channel .item .classic .wrap .tag .fa-heart,
+html body #wrapper #container #guide .sticky .tag .fa-heart-o,
+html body #wrapper #container #main .center .channel .item .classic .wrap .tag .fa-heart-o,
+html body #wrapper #container #guide .sticky .tag .fa-comments,
+html body #wrapper #container #main .center .channel .item .classic .wrap .tag .fa-comments,
+html body #wrapper #container #guide .sticky .tag .fa-bookmark,
+html body #wrapper #container #main .center .channel .item .classic .wrap .tag .fa-bookmark,
+html body #wrapper #container #guide .sticky .tag .fa-comment-o,
+html body #wrapper #container #main .center .channel .item .classic .wrap .tag .fa-comment-o,
+html body #wrapper #container #guide .sticky .tag .fa-bookmark-o,
+html body #wrapper #container #main .center .channel .item .classic .wrap .tag .fa-bookmark-o,
+html body #wrapper #container #guide .sticky .tag .fa-sticky-note,
+html body #wrapper #container #main .center .channel .item .classic .wrap .tag .fa-sticky-note,
+html body #wrapper #container #guide .sticky .tag .fa-sticky-note-o,
+html body #wrapper #container #main .center .channel .item .classic .wrap .tag .fa-sticky-note-o {
+  font-size: 24px !important;
+  padding: 5px !important;
+}
+
+html body #wrapper #container #main #top #arm #option .fa-home:before {
+  font-family: FontAwesome;
+  content: "\f015";
+  font-weight: 50;
+}
+
+html body #wrapper #container #main #top #arm #option .fa-map:before {
+  font-family: FontAwesome;
+  content: "\f279";
+  font-weight: 50;
+}
+
+html body #wrapper #container #main #top #arm #option .fa-sun:before {
+  font-family: FontAwesome;
+  content: "\f185";
+  font-weight: 50;
+}
+
+html body #wrapper #container #main #top #arm #option .fa-terminal:before {
+  font-family: FontAwesome;
+  content: "\f120";
+  font-weight: 50;
+}
+
+html body #wrapper #container #main #top #arm #option .fa-code:before {
+  font-family: FontAwesome;
+  content: "\f121";
+  font-weight: 50;
+}
+
+html body #wrapper #container #main #visit #page #front #label .link .fa-angle-up:before {
+  font-family: FontAwesome;
+  position: relative;
+  content: "\f106";
+  font-weight: 50;
+}
+
+html body #wrapper #container #guide .sticky .tag .fa-sticky-note:before,
+html body #wrapper #container #main .center .channel .item .classic .wrap .tag .fa-sticky-note:before {
+  font-family: FontAwesome;
+  content: "\f249";
+}
+
+html body #wrapper #container #guide .sticky .tag .fa-heart-o:before,
+html body #wrapper #container #main #top #arm #option .fa-heart-o:before,
+html body #wrapper #container #main .center .channel .item .classic .wrap .tag .fa-heart-o:before {
+  font-family: FontAwesome;
+  content: "\f08a";
+}
+
+html body #wrapper #container #guide .sticky .tag .fa-comments:before,
+html body #wrapper #container #main .center .channel .item .classic .wrap .tag .fa-comments:before {
+  font-family: FontAwesome;
+  content: "\f086";
+}
+
+html body #wrapper #container #guide .sticky .tag .fa-comment-o:before,
+html body #wrapper #container #main .center .channel .item .classic .wrap .tag .fa-comment-o:before {
+  font-family: FontAwesome;
+  content: "\f0e5";
+}
+
+html body #wrapper #container #guide .sticky .tag .fa-sticky-note-o:before,
+html body #wrapper #container #main .center .channel .item .classic .wrap .tag .fa-sticky-note-o:before {
+  font-family: FontAwesome;
+  content: "\f24a";
+}
+
+html body #wrapper #container #guide .sticky .tag .fa-bookmark-o:before,
+html body #wrapper #container #main .center .channel .item .classic .wrap .tag .fa-bookmark-o:before {
+  font-family: FontAwesome;
+  content: "\f097";
+}
+
+html body #wrapper #container #guide .sticky .tag .fa-bookmark:before,
+html body #wrapper #container #main .center .channel .item .classic .wrap .tag .fa-bookmark:before {
+  font-family: FontAwesome;
+  content: "\f02e";
+}
+
+html body #wrapper #container #guide .sticky .tag .fa-bookmark,
+html body #wrapper #container #guide .sticky .tag .fa-bookmark-o,
+html body #wrapper #container #main .center .channel .item .classic .wrap .tag .fa-bookmark,
+html body #wrapper #container #main .center .channel .item .classic .wrap .tag .fa-bookmark-o {
+  float: right !important;
+  margin-right: 5px;
+}
+
+html body #wrapper #container #main .center .quick .fa-angle-left:before,
+html body #wrapper #container #main #visit #page #front .quick .fa-angle-left:before {
+  font-family: "Font Awesome 5 Pro";
+  content: "\f104";
+  font-weight: 50;
+}
+
+html body #wrapper #container #main .center .quick .fa-angle-right:before,
+html body #wrapper #container #main #visit #page #front .quick .fa-angle-right:before {
+  font-family: "Font Awesome 5 Pro";
+  content: "\f105";
+  font-weight: 50;
+}
+
+html body #wrapper #container #top #arm #search #input .icon .fa-search:before,
+html body #wrapper #container #main #visit #page #front .focus .icon .fa-search:before,
+html body #wrapper #container #main #visit #page #front .focus .button .fa-search:before {
+  font-family: "Font Awesome 5 Pro";
+  content: "\f002";
+  font-weight: 50;
+}
+
+html body #wrapper #container .sticky .header .fa-ellipsis-h:before,
+html body #wrapper #container #main .center .channel .item .header .fa-ellipsis-h:before {
+  font-family: "Font Awesome 5 Pro";
+  content: "\f141";
+}
+
+html body #wrapper #container .sticky .header .fa-ellipsis-v:before,
+html body #wrapper #container #main .center .channel .item .header .fa-ellipsis-v:before {
+  font-family: "Font Awesome 5 Pro";
+  content: "\f142";
+}
+
+html body #wrapper #container .sticky .heart:before,
+html body #wrapper #container #main #top #arm #option .heart:before,
+html body #wrapper #container #main .center .channel .item .classic .wrap .tag .fa-heart:before {
+  font-family: FontAwesome;
+  content: "\f004";
+}
+
+html body #wrapper #container #guide .sticky .tag .fa-heart,
+html body #wrapper #container #main #top #arm #option .fa-heart,
+html body #wrapper #container #main .center .channel .item .classic .wrap .tag .fa-heart {
+  color: lightcoral !important;
+}
+
+div,
+input {
+  font-family: Proxima Nova;
+}
+
+html body #wrapper #container #toggle,
+html body #wrapper #container #main .group .air .populate,
+html body #wrapper #container #main .group .result .filter,
+html body #wrapper #container #main .group .result .populate,
+html body #wrapper #container #main #visit #page #front #label .show,
+html body #wrapper #container #main .content .suggestions .combine div,
+html body #wrapper #container #guide .checkmark,
+html body #wrapper #container #main #top #arm #option,
+html body #wrapper #container #main .center #bottom .bottom,
+html body #wrapper #container #main #visit #page #front #first .index,
+html body #wrapper #container #main #visit #page #front #first .hover,
+html body #wrapper #container #main #top #arm #search #match .listing .index,
+html body #wrapper #container #main #top #arm #search #match .listing .hover,
+html body #wrapper #container #main .center .right,
+html body #wrapper #container #main #visit #page #front .quick .right,
+html body #wrapper #container #main .center .quick .fa-angle-right,
+html body #wrapper #container #main #visit #page #front .quick .fa-angle-right,
+html body #wrapper #container #main .center .quick .left,
+html body #wrapper #container #main #visit #page #front .quick .left,
+html body #wrapper #container #main .center .quick .fa-angle-left,
+html body #wrapper #container #main #visit #page #front .quick .fa-angle-left,
+html body #wrapper #container #main .center .quick .feed,
+html body #wrapper #container #main #visit #page #front .quick .feed,
+html body #wrapper #container #main #top #arm #search #home,
+html body #wrapper #container #main .center .item .pub .more,
+html body #wrapper #container #main .center .item .addComment .post,
+html body #wrapper #container #main .center .item .img,
+.radial,
+.id,
+a {
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  background-color: transparent;
+  -webkit-user-select: none;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+html,
+html body,
+html body #wrapper,
+html body #wrapper #container,
+html body #wrapper #container #main,
+html body #wrapper #container #main #visit {
+  overflow: hidden;
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  bottom: 0;
+  left: 0;
+  top: 0;
+}
+
+html body #wrapper #container #main #notification {
+  border-radius: 6px;
+  width: fit-content;
+  font-weight: bold;
+  position: fixed;
+  font-size: 1em;
+  bottom: -200px;
+  display: none;
+  right: 2.75em;
+  padding: 1em;
+  margin: 10px;
+  height: 1em;
+  z-index: 9;
+}
+
+html body #wrapper #container #main #progressBar {
+  position: fixed;
+  height: 4px;
+  z-index: 10;
+  width: 0;
+  top: 0;
+}
+
+html body #wrapper #container #toggle {
+  background-color: transparent !important;
+  position: absolute;
+  padding: 15px;
+  right: 2px;
+  z-index: 1;
+  top: 7px;
+}
+
+html body #wrapper #container #guide .checkmark {
+  position: absolute;
+  padding: 10px;
+  top: 0;
+  right: 0;
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  display: none;
+  stroke-width: 2;
+  stroke: #fff;
+  margin: 10px;
+  stroke-miterlimit: 10;
+  z-index: 3;
+  box-shadow: inset 0px 0px 0px #7ac142;
+  animation: fill .4s ease-in-out .4s forwards, scale .3s ease-in-out .9s both;
+}
+
+html body #wrapper #container #guide .checkmark__check {
+  transform-origin: 50% 50%;
+  stroke-dasharray: 29;
+  stroke-dashoffset: 29;
+  animation: stroke 0.3s cubic-bezier(0.65, 0, 0.45, 1) 0.8s forwards;
+}
+
+html body #wrapper #container #guide .checkmark__circle {
+  stroke-dasharray: 166;
+  stroke-dashoffset: 166;
+  stroke-width: 2;
+  stroke-miterlimit: 10;
+  stroke: #7ac142;
+  fill: none;
+  animation: stroke 0.6s cubic-bezier(0.65, 0, 0.45, 1) forwards;
+}
+
+html body #wrapper #container #guide {
+  position: absolute;
+  display: none;
+}
+
+.guide::-webkit-scrollbar {
+  scrollbar-width: none;
+  display: none;
+}
+
+html body #wrapper #container #guide,
+html body #wrapper #container #guide .blur {
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  z-index: 8;
+  margin: 0;
+  height: 100%;
+  width: 100%;
+  left: 0;
+  top: 0;
+}
+
+html body #wrapper #container #guide .blur {
+  backdrop-filter: blur(10px);
+  position: absolute;
+  z-index: -1;
+}
+
+html body #wrapper #container #main #top {
+  width: calc(100% - 17px);
+  position: fixed;
+  display: none;
+  height: 57px;
+  z-index: 9;
+  top: 0;
+}
+
+html body #wrapper #container #main #top #arm {
+  position: relative;
+  display: block;
+  margin: 0 auto;
+  height: 51px;
+  width: 100%;
+}
+
+html body #wrapper #container #main #top #arm #search {
+  position: absolute;
+  height: 51px;
+  width: 100%;
+  margin: 0;
+  top: 4px;
+}
+
+html body #wrapper #container #main #top #arm #search #home {
+  font-family: Billabong;
+  text-decoration: none;
+  font-display: block;
+  position: absolute;
+  font-size: 36px;
+  cursor: pointer;
+  height: 40px;
+  left: -35px;
+  top: 5px;
+}
+
+html body #wrapper #container #main #top #arm #search #home:active {
+  color: #666 !important;
+}
+
+html body #wrapper #container #main #top #arm #option {
+  justify-content: space-between;
+  background-color: transparent;
+  position: absolute;
+  display: flex;
+  right: -35px;
+  z-index: 1;
+  top: 5px;
+}
+
+html body #wrapper #container #main {
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  -ms-overflow-style: -ms-autohiding-scrollbar;
+  -webkit-overflow-scrolling: touch;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  position: absolute;
+  text-align: center;
+  overflow-y: scroll;
+  user-select: none;
+  outline: none;
+}
+
+html body #wrapper #container #main .group {
+  scrollbar-width: none;
+  height: fit-content;
+  position: relative;
+  width: 100%;
+  top: 57px;
+}
+
+html body #wrapper #container #main #visit {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  height: 100%;
+}
+
+html body #wrapper #container #main #visit #page #handle {
+  position: relative;
+  margin: 0 auto;
+  width: 100%;
+}
+
+html body #wrapper #container #main #visit #page #handle #placeholder {
+  background-color: transparent !important;
+  width: fit-content !important;
+  text-decoration: none;
+  position: relative;
+  display: block;
+  margin: 0 auto;
+  height: 100px;
+}
+
+html body #wrapper #container #main #visit #page {
+  position: relative;
+  margin: 0 auto;
+  display: block;
+  width: 770px;
+  top: 125px;
+}
+
+html body #wrapper #container #main #dots .fill {
+  z-index: 99;
+  left: -4px;
+  top: 4px;
+}
+
+html body #wrapper #container #main #visit #page #front {
+  visibility: hidden;
+  position: relative;
+  margin: 40px auto;
+  display: block;
+  width: 100%;
+}
+
+html body #wrapper #container #main #visit #page #front #first {
+  position: relative;
+  top: -145px;
+}
+
+html body #wrapper #container #main #visit #page #front #first .listing {
+  background-color: transparent;
+  border-radius: 4px;
+  position: relative;
+  padding-top: 11px;
+  width: calc(100%);
+  overflow-y: auto;
+  text-align: left;
+  height: 440px;
+  bottom: 46px;
+}
+
+html body #wrapper #container #main #top #arm #search #match .listing .index .radial,
+html body #wrapper #container #main #top #arm #search #match .listing .hover .radial,
+html body #wrapper #container #main #visit #page #front #first .listing .index .radial,
+html body #wrapper #container #main #visit #page #front #first .listing .hover .radial {
+  bottom: -2px;
+  left: -2px;
+}
+
+html body #wrapper #container #main #top #arm #search #match .listing .index .type,
+html body #wrapper #container #main #top #arm #search #match .listing .hover .type,
+html body #wrapper #container #main #visit #page #front #first .listing .index .type,
+html body #wrapper #container #main #visit #page #front #first .listing .hover .type,
+html body #wrapper #container #main #top #arm #search #match .listing .index .typeTranslation,
+html body #wrapper #container #main #top #arm #search #match .listing .hover .typeTranslation,
+html body #wrapper #container #main #visit #page #front #first .listing .index .typeTranslation,
+html body #wrapper #container #main #visit #page #front #first .listing .hover .typeTranslation {
+  background-color: transparent;
+  display: inline-block;
+  border-radius: 28px;
+  position: relative;
+  font-size: 10px;
+  bottom: 3.25px;
+  height: 41px;
+  left: -1.5px;
+  width: 41px;
+}
+
+.text {
+  background-color: transparent;
+  display: inline-block;
+  position: relative;
+  bottom: 10px;
+  height: 30px;
+}
+
+html body #wrapper #container #main #visit #page #front .focus {
+  background-color: transparent;
+  height: 39.5px !important;
+  white-space: nowrap;
+  padding-right: 75px;
+  position: relative;
+}
+
+html body #wrapper #container #main #visit #page #front .focus input[type=text] {
+  height: 39.6px !important;
+  -webkit-appearance: none;
+  caret-color: transparent;
+  width: calc(100%);
+  display: inline-block;
+  padding-left: 40px;
+  position: relative;
+  border-radius: 2px;
+  text-align: center;
+  font-size: 18px;
+  outline: none;
+  bottom: 15px;
+  margin: 0;
+}
+
+.pageInput {
+  box-shadow: 2px 2px 12px #ddd !important;
+  transition: box-shadow .25s;
+}
+
+.pageInputOut {
+  box-shadow: 1px 1px 1px #ddd !important;
+  transition: box-shadow .25s;
+}
+
+html body #wrapper #container #main #top #arm #search #input .icon,
+html body #wrapper #container #main #visit #page #front .focus .icon {
+  font-size: 14px !important;
+  color: #aaa !important;
+  position: absolute;
+  margin-top: 2px;
+  left: 80px;
+  z-index: 2;
+  top: 10px;
+}
+
+.buttonOpposite {
+  background-color: #f7426C;
+}
+
+.buttonOpposite:hover {
+  background-color: #f54e75;
+}
+
+.buttonInvert {
+  background-color: #0078D4;
+}
+
+.buttonInvert:hover {
+  background-color: #1683D8;
+}
+
+html body #wrapper #container #main #visit #page #front .focus .button {
+  display: inline-block;
+  position: relative;
+  border-radius: 3px;
+  height: 39.3px;
+  width: 75px;
+  right: 4px;
+  bottom: 0;
+}
+
+html body #wrapper #container #main #visit #page #front .focus .buttonSearch {
+  font-size: 20px !important;
+  transform: rotate(90deg);
+  color: #fff !important;
+  position: absolute;
+  right: 28px;
+  top: 10px;
+}
+
+html body #wrapper #container #main #visit #page #front #label .show {
+  display: inline-block;
+  position: relative;
+  margin: 0 auto;
+  margin-top: 25px;
+  font-size: 14px;
+  z-index: 2;
+}
+
+html body #wrapper #container #main #visit #page #front #label .link {
+  transform: rotate(180deg);
+  display: inline-flex;
+  border-radius: 20px;
+  align-items: center;
+  position: absolute;
+  margin-left: 10px;
+  margin-top: 20px;
+  padding: 10px;
+  height: 10px;
+  width: 10px;
+  z-index: 2;
+}
+
+html body #wrapper #container #main .group .air,
+html body #wrapper #container #main .group .result {
+  justify-content: center;
+  flex-wrap: wrap;
+  display: flex;
+  width: 100%;
+}
+
+html body #wrapper #container #main .group .air .populate,
+html body #wrapper #container #main .group .result .filter,
+html body #wrapper #container #main .group .result .populate {
+  display: inline-flex;
+  border-radius: 8px;
+  flex-wrap: wrap;
+  font-size: 9px;
+  padding: 12px;
+  margin: 3em;
+  width: 16em;
+}
+
+html body #wrapper #container #main .group .air .populate a,
+html body #wrapper #container #main .group .result .filter a,
+html body #wrapper #container #main .group .result .populate a {
+  background-color: transparent;
+  position: relative;
+  margin: 0 auto;
+}
+
+html body #wrapper #container #main .group .air .populate .display,
+html body #wrapper #container #main .group .result .filter .display,
+html body #wrapper #container #main .group .result .populate .display {
+  position: relative;
+  padding: 5px;
+  width: 100%;
+}
+
+html body #wrapper #container #main .group .air .populate .id,
+html body #wrapper #container #main .group .result .filter .id,
+html body #wrapper #container #main .group .result .populate .id {
+  position: relative;
+  margin: 0 auto;
+}
+
+html body #wrapper #container #main .group .air .populate .title,
+html body #wrapper #container #main .group .result .filter .title,
+html body #wrapper #container #main .group .result .populate .title {
+  background-color: transparent;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+html body #wrapper #container #main #top #arm #search #input,
+html body #wrapper #container #main #top #arm #search #match {
+  z-index: 2;
+}
+
+html body #wrapper #container #main #top #arm #search #input {
+  position: relative;
+  margin: 0 auto;
+  display: none;
+  width: 15.5em;
+  top: .4em;
+}
+
+html body #wrapper #container #main #top #arm #search #input input[type=text] {
+  -webkit-appearance: none;
+  caret-color: transparent;
+  text-align: center;
+  border-radius: 2px;
+  font-size: 16px;
+  outline: none;
+  height: 2.2em;
+  width: 100%;
+  top: 25px;
+}
+
+html body #wrapper #container #main #top #arm #search #match {
+  width: fit-content;
+  position: relative;
+  margin: 0 auto;
+  height: 25.5em;
+  display: none;
+  top: 7px;
+}
+
+input[type=submit] {
+  display: none;
+}
+
+html body #wrapper #container #main .center .quick,
+html body #wrapper #container #main #visit #page #front .quick {
+  border-radius: 4px;
+  position: relative;
+  margin: 15px auto;
+  height: 7.5em;
+  width: 100%;
+}
+
+html body #wrapper #container #main .center .quick .feed,
+html body #wrapper #container #main #visit #page #front .quick .feed {
+  -webkit-overflow-scrolling: touch;
+  scrollbar-width: none;
+  position: relative;
+  overflow: hidden;
+  overflow-x: auto;
+  font-size: 10px;
+  display: flex;
+  height: 100%;
+  width: 100%;
+}
+
+html body #wrapper #container #main .center .quick .feed.feed::-webkit-scrollbar,
+html body #wrapper #container #main #visit #page #front .quick .feed::-webkit-scrollbar {
+  display: none;
+}
+
+.detail {
+  padding: 0 !important;
+  position: relative;
+  bottom: 0px;
+  z-index: 5;
+  left: -2px;
+}
+
+html body #wrapper #container #main .center .quick .feed .radial,
+html body #wrapper #container #main #visit #page #front .quick .feed .radial {
+  border-radius: 36px;
+  position: absolute;
+  height: 58.5px;
+  width: 58.5px;
+  margin: 10px;
+  z-index: 1;
+}
+
+html body #wrapper #container #main .center .quick .feed .asset,
+html body #wrapper #container #main #visit #page #front .quick .feed .asset,
+html body #wrapper #container #main #visit #page #front .quick .feed .assetTranslation {
+  padding-left: 25px;
+  padding-right: 25px;
+  position: relative;
+  text-align: center;
+  border-radius: 4px;
+  padding-top: 15px;
+  flex-shrink: 0;
+}
+
+html body #wrapper #container #main .content .status img,
+html body #wrapper #container #main .center .quick .feed .asset img,
+html body #wrapper #container #main #visit #page #front .quick .feed img,
+html body #wrapper #container #main #visit #page #front .quick .feed .assetTranslation img {
+  width: 51.5px;
+  height: 52px;
+  left: 2.5px;
+  top: 2.5px;
+}
+
+html body #wrapper #container #main .center .quick .feed .asset a,
+html body #wrapper #container #main #visit #page #front .quick .feed .asset a,
+html body #wrapper #container #main #visit #page #front .quick .feed .assetTranslation a {
+  background-color: transparent !important;
+  display: block;
+}
+
+html body #wrapper #container #main .center .quick .right {
+  justify-content: center;
+  align-items: center;
+  border-radius: 16px;
+  position: absolute;
+  display: flex;
+  right : -18px;
+  padding: 4px;
+  height: 24px;
+  width: 24px;
+  z-index: 7;
+  top: 40px;
+}
+html body #wrapper #container #main #visit #page #front .quick .right {
+  justify-content: center;
+  align-items: center;
+  border-radius: 16px;
+  position: absolute;
+  display: flex;
+  right : -28px;
+  padding: 4px;
+  height: 24px;
+  width: 24px;
+  z-index: 7;
+  top: 40px;
+}
+
+html body #wrapper #container #main .center .quick .left {
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  display: flex;
+  border-radius: 16px;
+  padding: 4px;
+  height: 24px;
+  width: 24px;
+  left: -18px;
+  z-index: 7;
+  top: 40px;
+}
+html body #wrapper #container #main #visit #page #front .quick .left {
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  display: flex;
+  border-radius: 16px;
+  padding: 4px;
+  height: 24px;
+  width: 24px;
+  left: -32px;
+  z-index: 7;
+  top: 40px;
+}
+
+.id,
+.idTranslation {
+  background-color: transparent;
+  border-radius: 36px;
+  position: relative;
+  padding: 1px;
+  margin: 10px;
+  height: 52px;
+  width: 53px;
+}
+
+html body #wrapper #container #guide .sticky .header,
+html body #wrapper #container #main .center .item .header,
+html body #wrapper #container #main .center .item .classic .header {
+  background-color: transparent;
+  height: 70px;
+  width: 100%;
+}
+
+html body #wrapper #container #guide .sticky .header .courtesy,
+html body #wrapper #container #main .center .item .classic .header .courtesy {
+  text-transform: capitalize;
+  align-items: center;
+  position: relative;
+  width: fit-content;
+  margin-top: 5px;
+  font-size: 10px;
+  display: flex;
+  height: 50px;
+  left: 0;
+}
+
+html body #wrapper #container #guide .sticky .header .courtesy a,
+html body #wrapper #container #main .center .item .classic .header .courtesy a {
+  background-color: transparent;
+}
+
+html body #wrapper #container #main .center .item .fill {
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  display: flex;
+  height: 14em;
+}
+
+html body #wrapper #container #main .center .item .classic  {
+  background-color: transparent;
+}
+
+html body #wrapper #container #main .center .item .classic .wrap {
+  background-color: transparent;
+  margin-left: 10px;
+}
+
+html body #wrapper #container #guide .sticky {
+  align-items: center;
+  position: relative;
+  display: none;
+}
+
+html body #wrapper #container #guide .sticky .item {
+  display: table-cell !important;
+  box-shadow: none !important;
+  border: none !important;
+  border-radius: 10px;
+  margin: 0;
+}
+
+html body #wrapper #container #guide .sticky .wrap .header .courtesy .id {
+  left: 1.75px;
+}
+
+html body #wrapper #container #guide .sticky .wrap {
+  display: table-cell !important;
+  vertical-align: top;
+  width: 300px;
+  height: 100%;
+}
+
+html body #wrapper #container #guide .sticky .pub {
+  background-color: transparent;
+  height: calc(100% - 100px);
+  font-size: 13px;
+  padding: 10px;
+  width: 300px;
+}
+
+html body #wrapper #container #guide .sticky .ago {
+  position: absolute;
+  font-size: 10px;
+  width: 300px;
+  bottom: 40px;
+  margin: 5px;
+}
+
+html body #wrapper #container #guide .sticky .tag {
+  position: absolute;
+  width: 320px;
+  bottom: 0;
+}
+
+html body #wrapper #container #main .center .item,
+html body #wrapper #container #guide .sticky .item {
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  -webkit-user-select: none;
+  margin-bottom: .3px;
+  width: 100%;
+}
+
+.invert {
+  background-color: #ffffff;
+  color: #666666;
+  border: none;
+}
+
+.invertAlt {
+  background-color: #f7f7f7;
+  color: #666666;
+  border: none;
+}
+
+.invertOver:hover {
+  background-color: #f6f8fa !important;
+  border: .3px solid #ddd !important;
+}
+
+.invertOver:hover .classic {
+  background-color: #f6f8fa !important;
+}
+
+.invertOver:hover .img {
+  filter: brightness(0.97);
+}
+
+.invertOverBorderless:hover {
+  background-color: #f2f2f2 !important;
+}
+
+.invertOverBorderless:not(:hover) {
+  background-color: #f7f7f7 !important;
+}
+
+.invertOver:not(:hover) {
+  border: .3px solid #ffffff;
+  background-color: #ffffff;
+}
+
+.opposite {
+  background-color: #000000;
+  box-shadow: none;
+  color: #ffffff;
+  border: none;
+}
+
+.oppositeAlt {
+  background-color: #0e0e0e;
+  box-shadow: none;
+  color: #ffffff;
+  border: none;
+}
+
+.oppositeOver:hover {
+  background-color: #0e0e0e !important;
+  border: .3px solid #0e0e0e;
+}
+
+.oppositeOver:hover .classic {
+  background-color: #0e0e0e !important;
+}
+
+.oppositeOver:hover .img {
+  filter: brightness(.75);
+}
+
+.oppositeOverBorderless:hover {
+  background-color: #0e0e0e !important;
+}
+
+.oppositeOverBorderless:not(:hover) {
+  background-color: #000000 !important;
+}
+
+
+.oppositeOver:not(:hover) {
+  border: .3px solid #0e0e0e;
+}
+
+html body #wrapper #container #main .center .item .header .id {
+  width: 24px;
+  height: 24px;
+}
+
+html body #wrapper #container #main .center .item .pub,
+html body #wrapper #container #main .center .item .add {
+  background-color: transparent;
+  justify-content: left;
+  width: 95% !important;
+  margin-left: 10px;
+  margin-top: 5px;
+  font-size: 13px;
+  left: 0;
+}
+
+html body #wrapper #container #main .center .item .pub {
+  display: inline-block;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+html body #wrapper #container #main .center .item .add {
+  margin-left: 15px !important;
+  margin-bottom: 10px;
+  font-size: 12px;
+  width: 85%;
+}
+
+html body #wrapper #container #main .center .item .tag {
+  background-color: transparent;
+  min-width: 38% !important;
+  position: relative;
+  width: 100%;
+}
+
+html body #wrapper #container #main .center .item .img,
+html body #wrapper #container #main .center .item .image {
+  background-color: transparent;
+  position: relative;
+  margin: 0 auto;
+}
+
+html body #wrapper #container #main .center .item .img {
+  max-width: 100%;
+  max-height: 90vh;
+  margin: 0 auto;
+}
+
+html body #wrapper #container #main .center .item .image {
+  right: 0;
+  left: 0;
+}
+
+html body #wrapper #container #main .center .item .pub .more {
+  background-color: transparent;
+  display: inline-block;
+  padding-bottom: 10px;
+  padding-right: 10px;
+  padding-left: 10px;
+  position: relative;
+  padding-top: 5px;
+  font-size: 13px;
+  color: #aaa;
+}
+
+html body #wrapper #container #main .center .item .addComment {
+  display: none;
+  margin: 0;
+}
+
+html body #wrapper #container #main .center .item .addComment .comment {
+  background-color: transparent;
+  font-family: Proxima Nova;
+  padding: 1em;
+  border: none;
+  clear: left;
+  width: 100%;
+}
+
+html body #wrapper #container #main .center .item .addComment .comment::placeholder {
+  font-size: 12px;
+  color: #aaa;
+}
+
+html body #wrapper #container #main .center .item .addComment .post {
+  margin-right: 10px;
+  position: relative;
+  font-size: 12px;
+  float: right;
+  top: -27px;
+}
+
+html body #wrapper #container #main .center .item .url,
+html body #wrapper #container #guide .sticky .wrap .url,
+html body #wrapper #container #main .center .item .share,
+html body #wrapper #container #guide .sticky .wrap .share,
+html body #wrapper #container #main .center .item .source,
+html body #wrapper #container #guide .sticky .wrap .source {
+  display: inline-block;
+  position: relative;
+  z-index: -2;
+  width: 10px;
+  height: 0;
+}
+
+html body #wrapper #container #main .center .item .header .copy,
+html body #wrapper #container #guide .sticky .wrap .header .copy {
+  font-size: 12px;
+  padding: 23px;
+  float: right;
+}
+
+html body #wrapper #container #main .center .item .wrap,
+html body #wrapper #container #guide .sticky .item .wrap {
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  background-color: transparent;
+  -webkit-user-select: none;
+  width: calc(100% - 10px);
+  flex-wrap: wrap;
+  display: flex;
+}
+
+html body #wrapper #container #main .center .item .external {
+  text-transform: lowercase;
+  padding-bottom: 10px;
+  position: relative;
+  margin-left: 10px;
+  font-size: 10;
+  width: 98%;
+  left: 12px;
+}
+
+html body #wrapper #container #main .center .item .ago {
+  background-color: transparent;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+  position: relative;
+  width: fit-content;
+  margin-left: 12px;
+  font-size: 9px;
+}
+
+html body #wrapper #container #main .center #bottom {
+  background-color: transparent;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 9em;
+  position: relative;
+  font-size: 12px;
+  display: flex;
+  height: 5em;
+  width: 100%;
+  bottom: 0;
+}
+
+html body #wrapper #container #main .center #bottom .bottom {
+  position: relative !important;
+  margin: 0 auto !important;
+  font-family: Billabong;
+  display: inline-block;
+  font-size: 28px;
+}
+
+html body #wrapper #container #main .center #bottom .previous {
+  float: left !important;
+}
+
+html body #wrapper #container #main .center #bottom .next {
+  float: right !important;
+}
+
+html body #wrapper #container #main .center {
+  display: inline-block;
+  position: relative;
+  text-align: left;
+  top: 60px;
+}
+
+html body #wrapper #container #main .content {
+  display: inline-block;
+  height: fit-content;
+  vertical-align: top;
+  margin-left: 55px;
+  text-align: left;
+  position: sticky;
+  font-size: 10px;
+  padding: 15px;
+  width: 320px;
+  top: 60px;
+}
+
+html body #wrapper #container #main .content .status {
+  align-items: center;
+  position: relative;
+  text-align: left;
+  font-size: 10px;
+  height: 120px;
+  display: flex;
+  width: 300px;
+}
+
+html body #wrapper #container #main .content .status .info {
+  width: 100%;
+}
+
+html body #wrapper #container #main .content .status .info,
+html body #wrapper #container #main .content .status .asset {
+  position: relative;
+  top: -5px;
+}
+
+html body #wrapper #container #main .content .status .asset .radial {
+  border-radius: 36px;
+  position: absolute;
+  height: 55px;
+  width: 56px;
+  left: 9.5px;
+  top: 10px;
+}
+
+html body #wrapper #container #main .content .suggestions {
+  background-color: transparent;
+  position: relative;
+  text-align: left;
+  font-size: 10px;
+  padding: 15px;
+  width: 260px;
+  top: 25px;
+}
+
+html body #wrapper #container #main .content .suggestions .radial {
+  border-radius: 36px;
+  position: absolute;
+  height: 25px;
+  width: 26px;
+  z-index: 1;
+}
+
+html body #wrapper #container #main .content .suggestions .id {
+  position: relative;
+  height: 23.5px;
+  width: 24.5px;
+  right: 10px;
+}
+
+html body #wrapper #container #main .content .suggestions .combine {
+  align-items: center;
+  padding-left: 15px;
+  display: flex;
+  width: 100%;
+  margin: 3px;
+}
+
+html body #wrapper #container #main .content .suggestions .combine .suggest {
+  padding-bottom: 5px;
+  padding-top: 5px;
+  font-size: 12px;
+  width: 100%;
+}
+
+html body #wrapper #container #main .content .suggestions .combine .suggest a {
+  font-weight: bold;
+  font-size: 11px;
+}
+
+html body #wrapper #container #main .content .suggestions .combine div {
+  background-color: transparent;
+}
+
+html body #wrapper #container #main .center .item .views {
+  position: relative;
+}
+
+html body #wrapper #container #main .center .yt .image {
+  width: 100% !important;
+  padding-bottom: 56.25% !important; /* 16:9 */
+  position: relative !important;
+  overflow: hidden !important;
+}
+
+html body #wrapper #container #main .center .yt .image img {
+  position: absolute !important;
+  top: -16.75% !important;
+  bottom: 0 !important;
+  left: 0 !important;
+  right: 0 !important;
+}
+
+html body #wrapper #container #main #top #arm #search #match .listing .index:first-child:hover:after,
+html body #wrapper #container #main #visit #page #front #first .listing .index:first-child:hover:after {
+  border-color: transparent transparent #eee transparent;
+}
+
+html body #wrapper #container #main #top #arm #search #match .listing .hover:first-child:not(:hover):after,
+html body #wrapper #container #main #visit #page #front #first .listing .hover:first-child:not(:hover):after {
+  border-color: transparent transparent #eee transparent;
+}
+
+.contrast:first-child:hover:before {
+  border-color: transparent transparent #222 transparent !important;
+}
+
+.contrast:first-child:hover:after {
+  border-color: transparent transparent #222 transparent !important;
+}
+
+.contrast:first-child:not(:hover):after {
+  border-color: transparent transparent #0e0e0e transparent !important;
+}
+
+.contrast:first-child:not(:hover):before {
+  border-color: transparent transparent #0e0e0e transparent !important;
+}
+
+html body #wrapper #container #main #top #arm #search #match .listing .index:first-child:before,
+html body #wrapper #container #main #visit #page #front #first .listing .index:first-child:before {
+  content: "";
+  position: absolute;
+  left: 44px;
+  top: -10px;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 0 10px 10px 10px;
+  border-color: transparent transparent #eee transparent;
+  z-index: 3;
+}
+
+html body #wrapper #container #main #top #arm #search #match .listing .index:first-child:after,
+html body #wrapper #container #main #visit #page #front #first .listing .index:first-child:after {
+  content: "";
+  position: absolute;
+  left: 45px;
+  top: -9px;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 0 9px 9px 9px;
+  border-color: transparent transparent #fff transparent;
+  z-index: 4;
+}
+
+html body #wrapper #container #main #top #arm #search #match .listing .background,
+html body #wrapper #container #main #visit #page #front #first .listing .background {
+  height: calc(100% + 4px) !important;
+  width: calc(100% + 2px) !important;
+  position: absolute;
+  margin-top: -12px;
+  z-index: -1;
+  left: -1px;
+}
+
+html body #wrapper #container #main #top #arm #search #match .listing {
+  background-color: transparent;
+  position: relative;
+  padding-top: 12px;
+  text-align: left;
+  overflow-y: auto;
+  margin: 0 auto;
+  height: 440px;
+  width: 18em;
+}
+
+html body #wrapper #container #main #top #arm #search #match .listing .detail,
+html body #wrapper #container #main #visit #page #front #first .listing .detail {
+  height: 100%;
+  width: 100%;
+}
+
+html body #wrapper #container #main #top #arm #search #match .listing .index,
+html body #wrapper #container #main #visit #page #front #first .listing .index {
+  border-bottom: none !important;
+  width: calc(100% - 16px);
+  padding-bottom: 12px;
+  position: relative;
+  padding-left: 12px;
+  padding-top: 12px;
+  font-size: 12px;
+  height: 3em;
+  margin: 2px;
+}
+
+.contrast.hover {
+  background-color: #222 !important;
+  color: #fff !important;
+}
+
+.contrast {
+  background-color: #000 !important;
+  color: #fff !important;
+}
+
+.visual.hover {
+  background-color: #eee !important;
+  color: #666 !important;
+}
+
+.visual {
+  background-color: #fff !important;
+  color: #666 !important;
+}
+
+html body #wrapper #container #main #top #arm #search #match .listing .hover,
+html body #wrapper #container #main #visit #page #front #first .listing .hover {
+  border-bottom: none !important;
+  width: calc(100% - 16px);
+  padding-bottom: 12px;
+  padding-left: 12px;
+  padding-top: 12px;
+  font-size: 12px;
+  height: 3em;
+  margin: 2px;
+}
